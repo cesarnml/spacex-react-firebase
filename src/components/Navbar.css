@@ -1,0 +1,15 @@
+.Navbar {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  border: 2px solid goldenrod;
+}
+
+.logo {}
+
+.rockets {
+  display: flex;
+}
+
+.company {
+  display: flex;
+}

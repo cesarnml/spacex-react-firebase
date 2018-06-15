@@ -1,30 +1,89 @@
 .Navbar {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 2%
+  padding: 25px 2%;
+  font-weight: 200;
+  background: RGB(24, 28, 31);
+  font-weight: 400;
 }
 
 .logo {
-  border: 1px solid green;
+  /* border: 1px solid green; */
+  width: auto;
+  height: 25px;
+  cursor: pointer;
 }
 
 .rockets {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rocket {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease;
+}
+
+.rocket:hover {
+  border-bottom: 2px solid RGB(204, 172, 85);
 }
 
 .news {
-  border: 1px solid green;
+  /* border: 1px solid green; */
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease;
+}
+
+.news:hover {
+  border-bottom: 2px solid RGB(204, 172, 85);
+}
+
+.company-info {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .company {
-  border: 1px solid green;
-  display: flex
+  margin: 0 10px;
+  font-size: 12px;
+  text-decoration: none;
+  color: RGB(139, 147, 155);
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+}
+
+.company:hover {
+  border-bottom: 2px solid RGB(139, 147, 155);
+  transition: all 0.5s ease;
 }
 
 .shop {
-  border: 1px solid green;
+  /* border: 1px solid green; */
+  font-size: 12px;
+  text-decoration: none;
+  color: RGB(139, 147, 155);
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 4px 10px 4px;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  background: black;
+  font-weight: bold;
+}
+
+.shop:hover {
+  border: 2px solid RGB(139, 147, 155);
+  padding: 4px 10px 4px;
 }

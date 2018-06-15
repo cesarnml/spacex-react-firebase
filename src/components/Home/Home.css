@@ -1,0 +1,70 @@
+.wrapper__movie {
+  position: relative;
+  background: rgba(0, 0, 0, .5)
+  /* height: auto; */
+}
+
+.carousel__image {
+  /* border: 2px solid red; */
+  width: 100%;
+  /* height: 100%;
+  object-fit: fill;
+  object-position: center; */
+}
+
+.carousel__movie {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  object-position: center;
+}
+
+.carousel__overlay {
+  /* border: 2px solid orange; */
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0px;
+  left: 0px;
+  height: 100px;
+  width: 100%;
+  background: rgba(0, 0, 0, .5)
+}
+
+.carousel__title--active {
+  font-size: 2rem;
+  margin-left: 5%;
+  text-transform: uppercase;
+}
+
+.carousel__button--active {
+  font-size: 1rem;
+  color: black;
+  margin-right: 5%;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px;
+}
+
+.carousel__menu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 60px;
+  background: RGB(24, 28, 31);
+  font-size: 12px;
+}
+
+.carousel__menu-item {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+}
+
+.carousel__menu-num {
+  margin-right: 3%;
+  color: RGB(139, 147, 155);
+}

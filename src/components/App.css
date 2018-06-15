@@ -1,5 +1,4 @@
-.app {
-  border: 2px solid blue;
-  background: #ddd;
-  min-height: 100vh;
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
 }

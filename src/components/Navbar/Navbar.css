@@ -1,95 +1,30 @@
-/* .navbar {
-  background-color: rgb(10, 22, 14);
-  height: 75px;
+.Navbar {
+  border: 2px solid blue;
   display: flex;
-  flex-flow: nowrap;
-  justify-content: center !important;
-  align-items: flex-start;
-  /* border: 2px solid blue; 
-  padding: 0 !important;
-  position: sticky !important;
-  top: 0 !important;
-  left: 0 !important;
-}
-
-.nav {
-  /* border: 2px solid cyan; 
-  width: 992px !important;
-  display: flex;
-  align-items: center;
+  flex-flow: row;
   justify-content: space-between;
-}
-.nav__brand {
-  /* border: 2px solid green; 
-  margin: 0 5px;
-}
-
-.nav__brand:hover {
-  cursor: pointer;
-}
-
-.nav__list {
-  font-size: 14px;
-  font-weight: 400;
-  display: flex;
-  list-style: none;
-  /* border: 2px solid green; 
-  padding: 0 !important;
-  margin: 0 5px 0 0 !important;
-  height: 40px;
   align-items: center;
-  justify-content: space-evenly;
+  padding: 10px 2%
 }
 
-.nav__item-rockets {
-  margin: 0 0.5em;
-  font-size: 1em;
+.logo {
+  border: 1px solid green;
 }
 
-.nav__link-rockets {
-  color: white;
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  padding-bottom: 4px;
-  transition: border 500ms ease;
+.rockets {
+  border: 1px solid green;
+  display: flex;
 }
 
-.nav__link-rockets:hover {
-  text-decoration: none;
-  color: white;
-  padding-bottom: 4px;
-  border-bottom: 2px solid #ccac55;
+.news {
+  border: 1px solid green;
 }
 
-.nav__item-company {
-  font-size: 0.8em;
-  font-weight: 700;
-  margin: .7em;
+.company {
+  border: 1px solid green;
+  display: flex
 }
 
-.nav__link-company {
-  color: #8b939b;
-  text-decoration: none;
-  transition: border 500ms ease;
-  padding-bottom: 3px;
-  border-bottom: 2px solid rgba(139, 147, 155, 0);
+.shop {
+  border: 1px solid green;
 }
-
-.nav__link-company:hover {
-  color: #8b939b;
-  text-decoration: none;
-  border-bottom: 2px solid rgba(139, 147, 155, 1);
-}
-.nav__link-shop {
-  padding: 4px 12px;
-  border-radius: 16px;
-  background-color: #000;
-  border: 2px solid #000;
-  color: #8b939b;
-}
-
-.nav__link-shop:hover {
-  border: 2px solid rgba(139, 147, 155, 1);
-  color: #8b939b;
-  text-decoration: none;
-} */

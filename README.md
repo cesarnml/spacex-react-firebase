@@ -1,14 +1,14 @@
-# SpaceX Website Redesign : React-Firebase
+# SpaceX Website Redesign : React-ReactRouter-Firebase
 
 Fan project to redesign SpaceX website using modern web development tools.
 
-"Thos
+["Those who say it can not be done, should not interrupt those doing it."](https://twitter.com/IvankaTrump/status/1006160823360872448?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fabcnews.go.com%2FUS%2Fivanka-trumps-chinese-proverb-chinese-proverb-experts%2Fstory%3Fid%3D55860647)
 
 ## Table of Contents
 
 <!-- TOC -->
 
-- [SpaceX Website Redesign : React-Firebase](#spacex-website-redesign--react-firebase)
+- [SpaceX Website Redesign : React-ReactRouter-Firebase](#spacex-website-redesign--react-reactrouter-firebase)
   - [Table of Contents](#table-of-contents)
   - [Progress](#progress)
   - [Main Nav (nav__main)](#main-nav-nav__main)

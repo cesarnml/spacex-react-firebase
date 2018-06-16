@@ -20,10 +20,11 @@ const Navbar = () => {
         <Link className='rocket dragon' to='dragon'>
           DRAGON
         </Link>
+        <Link className='updates' to='/updates'>
+          UPDATES
+        </Link>
       </div>
-      <Link className='news' to='/news'>
-        NEWS
-      </Link>
+
       <div className='company-info'>
         <Link className='company about' to='/about'>
           ABOUT SPACEX
@@ -34,10 +35,10 @@ const Navbar = () => {
         <Link className='company gallery' to='/gallery'>
           GALLERY
         </Link>
+        <Link className='shop' to='/shop'>
+          SHOP
+        </Link>
       </div>
-      <Link className='shop' to='/shop'>
-        SHOP
-      </Link>
     </div>
   )
 }

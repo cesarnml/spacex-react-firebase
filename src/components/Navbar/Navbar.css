@@ -25,7 +25,7 @@
 }
 
 .rocket {
-  margin: 0 10px;
+  margin: 0 5px;
   text-decoration: none;
   color: white;
   border-bottom: 2px solid transparent;
@@ -36,15 +36,16 @@
   border-bottom: 2px solid RGB(204, 172, 85);
 }
 
-.news {
+.updates {
   /* border: 1px solid green; */
   text-decoration: none;
   color: white;
   border-bottom: 2px solid transparent;
   transition: all 0.5s ease;
+  margin: 0 5px;
 }
 
-.news:hover {
+.updates:hover {
   border-bottom: 2px solid RGB(204, 172, 85);
 }
 
@@ -56,7 +57,7 @@
 }
 
 .company {
-  margin: 0 10px;
+  margin: 0 5px;
   font-size: 12px;
   text-decoration: none;
   color: RGB(139, 147, 155);
@@ -76,11 +77,13 @@
   color: RGB(139, 147, 155);
   border: 2px solid transparent;
   border-radius: 20px;
-  padding: 4px 10px 4px;
+  padding: 5px 10px 3px;
   transition: all 0.5s ease;
   text-decoration: none;
   background: black;
   font-weight: bold;
+  line-height: 12px;
+  margin-bottom: 4px;
 }
 
 .shop:hover {

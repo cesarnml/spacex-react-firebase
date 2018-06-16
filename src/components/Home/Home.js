@@ -1,8 +1,5 @@
 import React from 'react'
 
-import carouselRocket from '../../assets/carousel_rocket.jpg'
-import carouselMovie from '../../assets/carousel_movie.mp4'
-import carouselMars from '../../assets/carousel_mars.jpg'
 import './Home.css'
 
 // <video className='carousel__movie' playsinline muted loop>

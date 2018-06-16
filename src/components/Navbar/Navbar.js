@@ -10,6 +10,7 @@ const Navbar = () => {
       <Link to='/'>
         <img className='logo' src={logo} alt='spacex logo' />
       </Link>
+      <i class='fas fa-bars nav__bars fa-2x' />
       <div className='rockets'>
         <div className='rocket-condensed'>ROCKETS &amp; SPACECRAFT</div>
         <Link className='rocket falcon9' to='/falcon9'>
@@ -25,7 +26,6 @@ const Navbar = () => {
           UPDATES
         </Link>
       </div>
-
       <div className='company-info'>
         <div className='company-condensed'>COMPANY</div>
         <Link className='company about' to='/about'>

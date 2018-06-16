@@ -4,7 +4,7 @@
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 2% 20px;
+  padding: 30px 3% 20px;
   background: RGB(24, 28, 31);
   font-weight: 400;
   height: 75px;
@@ -15,6 +15,13 @@
   position: relative;
   bottom: 5px;
   cursor: pointer;
+}
+
+.nav__bars {
+  /* border: 2px solid red; */
+  position: relative;
+  display: none;
+  bottom: 5px;
 }
 
 .rockets {
@@ -144,4 +151,16 @@
 .shop:hover {
   border: 2px solid RGB(139, 147, 155);
   padding: 5px 10px 3px;
+}
+
+@media (max-width: 768px) {
+  .nav__bars {
+    display: block;
+  }
+  .rockets {
+    display: none
+  }
+  .company-info {
+    display: none
+  }
 }

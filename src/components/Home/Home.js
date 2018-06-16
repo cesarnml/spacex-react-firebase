@@ -12,28 +12,33 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='Home'>
-      <div className='wrapper__movie'>
-        <img className='carousel__image' src={carouselRocket} />
+      <div className='carousel__wrapper'>
         <div className='carousel__overlay'>
-          <h2 className='carousel__title--active'>Falcon Heavy & Starman</h2>
-          <button className='carousel__button--active'>Watch Video</button>
+          <div className='carousel__overlay-header'>
+            <h2 className='carousel__title--active'>Falcon Heavy & Starman</h2>
+            <button className='carousel__button--active'>Watch Video</button>
+          </div>
+          <div className='carousel__menu'>
+            <div className='carousel__menu-item'>
+              <div className='carousel__menu-num'>01</div>
+              <div className='carousel__menu-title'>SES-12 MISSION</div>
+            </div>
+            <div className='carousel__menu-item'>
+              <div className='carousel__menu-num'>02</div>
+              <div className='carousel__menu-title'>FALCON HEAVY & STARMAN</div>
+            </div>
+            <div className='carousel__menu-item'>
+              <div className='carousel__menu-num'>03</div>
+              <div className='carousel__menu-title'>
+                MAKING LIFE MULTIPLANETARY
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div className='carousel__menu'>
-        <div className='carousel__menu-item'>
-          <div className='carousel__menu-num'>01</div>
-          <div className='carousel__menu-title'>SES-12 MISSION</div>
-        </div>
-        <div className='carousel__menu-item'>
-          <div className='carousel__menu-num'>02</div>
-          <div className='carousel__menu-title'>FALCON HEAVY & STARMAN</div>
-        </div>
-        <div className='carousel__menu-item'>
-          <div className='carousel__menu-num'>03</div>
-          <div className='carousel__menu-title'>MAKING LIFE MULTIPLANETARY</div>
-        </div>
-      </div>
+      <div className='content-main'>Content__Main</div>
+      <div className='footer__main'>Footer__Main</div>
+      <div className='footer__social'>Footer__Social</div>
     </div>
   )
 }

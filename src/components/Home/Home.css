@@ -1,4 +1,4 @@
-.carousel {
+.Carousel {
   /* border: 2px solid blue; */
   position: relative;
   width: 100%;
@@ -85,7 +85,7 @@
 
 .carousel__menu-title {}
 
-.content {
+.Content {
   border: 2px solid red;
   display: flex;
   flex-flow: column;

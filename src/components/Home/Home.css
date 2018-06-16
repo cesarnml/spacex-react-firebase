@@ -124,7 +124,8 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-bottom: 177px;
+  margin-bottom: 150px;
+  transition: all 1s ease;
 }
 
 @media (max-width: 768px) {
@@ -136,6 +137,7 @@
     height: 950px;
     max-width: 500px;
     min-width: 320px;
+    margin-bottom: 100px;
   }
 }
 

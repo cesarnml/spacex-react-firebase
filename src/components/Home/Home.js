@@ -9,11 +9,11 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='Home'>
-      <div className='carousel__wrapper'>
+      <div className='carousel'>
         <div className='carousel__overlay'>
           <div className='carousel__overlay-header'>
-            <h2 className='carousel__title--active'>Falcon Heavy & Starman</h2>
-            <button className='carousel__button--active'>Watch Video</button>
+            <h2 className='carousel__title'>FALCON HEAVY & STARMAN</h2>
+            <button className='carousel__btn'>WATCH VIDEO</button>
           </div>
           <div className='carousel__menu'>
             <div className='carousel__menu-item'>
@@ -33,7 +33,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='content-main'>Content__Main</div>
+      <div className='content__main'>Content__Main</div>
       <div className='footer__main'>Footer__Main</div>
       <div className='footer__social'>Footer__Social</div>
     </div>

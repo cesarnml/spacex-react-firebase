@@ -1,4 +1,4 @@
-.carousel__wrapper {
+.carousel {
   /* border: 2px solid blue; */
   position: relative;
   width: 100%;
@@ -47,13 +47,13 @@
   height: 100px;
 }
 
-.carousel__title--active {
+.carousel__title {
   font-size: 2rem;
   margin-left: 5%;
   text-transform: uppercase;
 }
 
-.carousel__button--active {
+.carousel__btn {
   font-size: 1rem;
   color: black;
   margin-right: 5%;
@@ -83,7 +83,9 @@
   color: RGB(139, 147, 155);
 }
 
-.content-main {
+.carousel__menu-title {}
+
+.content__main {
   border: 2px solid red;
   height: 600px;
   display: flex;

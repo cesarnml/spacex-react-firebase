@@ -55,12 +55,17 @@
 
 .carousel__btn {
   font-size: 1rem;
-  color: black;
+  color: RGB(58, 58, 58);
+  background: white;
   margin-right: 5%;
-  height: 50px;
-  width: 200px;
-  border-radius: 5px;
+  height: 36px;
+  width: 180px;
+  border-radius: 2px;
   box-shadow: 2px 2px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
 }
 
 .carousel__menu {
@@ -86,7 +91,7 @@
 .carousel__menu-title {}
 
 .Content {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -95,14 +100,24 @@
   color: #3a3a3a;
   font-size: 1rem;
   padding-top: 70px;
+  box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 0.4)
 }
 
 .content__header {
   margin-bottom: 98px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   font-weight: bold;
   font-size: 18px;
   text-align: center;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 900px) {
+  .content__header {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0 55px;
+  }
 }
 
 .content__cards {
@@ -113,26 +128,54 @@
 }
 
 .card {
-  width: 313px;
+  /* border: 2px solid black; */
+  min-width: 200px;
+  max-width: 313px;
   height: 283px;
-  border: 2px solid black;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: space-around;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  padding: 24px;
+  margin: 0 10px;
 }
 
 .card-image {
-  width: 255px;
-  height: 117px;
+  width: 100%;
+  height: auto;
 }
 
-.card-title {}
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
 
-.card-link {}
+@media (max-width: 900px) {
+  .card-title {
+    font-size: 14px;
+  }
+}
+
+.card-link__wrapper {
+  align-self: start;
+}
+
+.card-link {
+  color: RGB(53, 105, 164);
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.card-link:hover {
+  border-bottom: 2px solid RGB(53, 105, 164)
+}
 
 .footer__spacex {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   height: 170px;
   display: flex;
   justify-content: center;
@@ -143,7 +186,7 @@
 }
 
 .footer__social {
-  border: 2px solid lime;
+  /* border: 2px solid lime; */
   height: 50px;
   display: flex;
   justify-content: center;

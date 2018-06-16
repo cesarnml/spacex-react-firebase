@@ -5,8 +5,8 @@ const Carousel = () => {
     <div className='Carousel'>
       <div className='carousel__overlay'>
         <div className='carousel__overlay-header'>
-          <h2 className='carousel__title'>FALCON HEAVY & STARMAN</h2>
-          <button className='carousel__btn'>WATCH VIDEO</button>
+          <h2 className='carousel__title'>FALCON HEAVY &amp; STARMAN</h2>
+          <div className='carousel__btn'>WATCH VIDEO</div>
         </div>
         <div className='carousel__menu'>
           <div className='carousel__menu-item'>

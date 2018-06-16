@@ -11,7 +11,7 @@ const Navbar = () => {
         <img className='logo' src={logo} alt='spacex logo' />
       </Link>
       <div className='rockets'>
-        <div className='rocket-condensed'>ROCKETS & SPACECRAFT</div>
+        <div className='rocket-condensed'>ROCKETS &amp; SPACECRAFT</div>
         <Link className='rocket falcon9' to='/falcon9'>
           FALCON 9
         </Link>

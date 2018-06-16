@@ -4,9 +4,10 @@
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 2%;
+  padding: 30px 2% 20px;
   background: RGB(24, 28, 31);
   font-weight: 400;
+  height: 75px;
 }
 
 .logo {
@@ -17,12 +18,12 @@
 }
 
 .rockets {
-  /* border: 1px solid green; */
+  /* border: 2px solid red; */
   display: flex;
   /* justify-content: space-between; */
   justify-content: space-evenly;
   align-items: center;
-  padding: 0 5px;
+  flex-grow: 1
 }
 
 .rocket-condensed {
@@ -30,7 +31,6 @@
 }
 
 .rocket {
-  margin: 0 5px;
   text-decoration: none;
   color: white;
   border-bottom: 2px solid transparent;
@@ -42,11 +42,16 @@
 }
 
 @media (max-width: 900px) {
+  .rockets {
+    /* border: 2px solid red; */
+    justify-content: flex-start;
+    padding: 0 20px;
+  }
   .rocket-condensed {
     display: block;
     border-bottom: 2px solid transparent;
     transition: all 0.5s ease;
-    margin-right: 2.5vw;
+    margin-right: 30px;
   }
   .rocket-condensed:hover {
     border-bottom: 2px solid RGB(204, 172, 85);
@@ -69,7 +74,14 @@
   border-bottom: 2px solid RGB(204, 172, 85);
 }
 
+@media (max-width: 900px) {
+  .updates {
+    margin: 0 0 0 10px;
+  }
+}
+
 .company-info {
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -48,7 +48,7 @@
 }
 
 .carousel__title {
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin-left: 5%;
   text-transform: uppercase;
 }
@@ -85,18 +85,53 @@
 
 .carousel__menu-title {}
 
-.content__main {
+.content {
   border: 2px solid red;
-  height: 600px;
   display: flex;
-  justify-content: center;
+  flex-flow: column;
+  justify-content: space-between;
   align-items: center;
   background: white;
-  color: black;
-  font-size: 3rem;
+  color: #3a3a3a;
+  font-size: 1rem;
+  padding-top: 70px;
 }
 
-.footer__main {
+.content__header {
+  margin-bottom: 98px;
+  border: 2px solid blue;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.content__cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 177px;
+}
+
+.card {
+  width: 313px;
+  height: 283px;
+  border: 2px solid black;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-image {
+  width: 255px;
+  height: 117px;
+}
+
+.card-title {}
+
+.card-link {}
+
+.footer__spacex {
   border: 2px solid blue;
   height: 170px;
   display: flex;

@@ -5,23 +5,28 @@
   justify-content: space-between;
   align-items: center;
   padding: 25px 2%;
-  font-weight: 200;
   background: RGB(24, 28, 31);
   font-weight: 400;
 }
 
 .logo {
   /* border: 1px solid green; */
-  width: auto;
-  height: 25px;
+  position: relative;
+  bottom: 5px;
   cursor: pointer;
 }
 
 .rockets {
   /* border: 1px solid green; */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
   align-items: center;
+  padding: 0 5px;
+}
+
+.rocket-condensed {
+  display: none;
 }
 
 .rocket {
@@ -36,13 +41,28 @@
   border-bottom: 2px solid RGB(204, 172, 85);
 }
 
+@media (max-width: 900px) {
+  .rocket-condensed {
+    display: block;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease;
+    margin-right: 2.5vw;
+  }
+  .rocket-condensed:hover {
+    border-bottom: 2px solid RGB(204, 172, 85);
+  }
+  .rocket {
+    display: none
+  }
+}
+
 .updates {
   /* border: 1px solid green; */
+  margin: 0 5px;
   text-decoration: none;
   color: white;
   border-bottom: 2px solid transparent;
   transition: all 0.5s ease;
-  margin: 0 5px;
 }
 
 .updates:hover {
@@ -50,24 +70,47 @@
 }
 
 .company-info {
-  /* border: 1px solid green; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5px;
+}
+
+.company-condensed {
+  display: none;
 }
 
 .company {
   margin: 0 5px;
   font-size: 12px;
+  font-weight: bold;
   text-decoration: none;
   color: RGB(139, 147, 155);
   border-bottom: 2px solid transparent;
-  font-weight: bold;
 }
 
 .company:hover {
   border-bottom: 2px solid RGB(139, 147, 155);
   transition: all 0.5s ease;
+}
+
+@media (max-width: 900px) {
+  .company-condensed {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: RGB(139, 147, 155);
+    border-bottom: 2px solid transparent;
+    margin-right: 2.5vw;
+  }
+  .company-condensed:hover {
+    border-bottom: 2px solid RGB(139, 147, 155);
+    transition: all 0.5s ease;
+  }
+  .company {
+    display: none
+  }
 }
 
 .shop {
@@ -83,10 +126,10 @@
   background: black;
   font-weight: bold;
   line-height: 12px;
-  margin-bottom: 4px;
+  margin: 0 0 4px 5px;
 }
 
 .shop:hover {
   border: 2px solid RGB(139, 147, 155);
-  padding: 4px 10px 4px;
+  padding: 5px 10px 3px;
 }

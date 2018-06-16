@@ -11,6 +11,7 @@ const Navbar = () => {
         <img className='logo' src={logo} alt='spacex logo' />
       </Link>
       <div className='rockets'>
+        <div className='rocket-condensed'>ROCKETS & SPACECRAFT</div>
         <Link className='rocket falcon9' to='/falcon9'>
           FALCON 9
         </Link>
@@ -26,8 +27,9 @@ const Navbar = () => {
       </div>
 
       <div className='company-info'>
+        <div className='company-condensed'>COMPANY</div>
         <Link className='company about' to='/about'>
-          ABOUT SPACEX
+          ABOUT
         </Link>
         <Link className='company careers' to='/careers'>
           CAREERS

@@ -135,13 +135,15 @@ table {
   border-spacing: 0;
 }
 
+/* END OF RESET */
+
 * {
   box-sizing: border-box;
 }
 
 body {
   background: black;
+  font-family: 'Josefin Sans', Lato, Helvetica, sans-serif;
   font-size: 14px;
   color: white;
-  font-family: 'Josefin Sans', Lato, Helvetica, sans-serif;
 }

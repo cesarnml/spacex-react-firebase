@@ -1,8 +1,12 @@
 # SpaceX Website Redesign : React-ReactRouter-Firebase
 
-Fan project to redesign SpaceX website using modern web development tools.
+Fan project to redesign SpaceX website using modern web development stack.
 
-["Those who say it can not be done, should not interrupt those doing it."](https://twitter.com/IvankaTrump/status/1006160823360872448?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fabcnews.go.com%2FUS%2Fivanka-trumps-chinese-proverb-chinese-proverb-experts%2Fstory%3Fid%3D55860647)
+[Trello Board](https://trello.com/b/d1hswg4D)
+
+---
+
+["Those who say it can not be done, should not interrupt those doing it." - Ivanka Trump](https://twitter.com/IvankaTrump/status/1006160823360872448?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fabcnews.go.com%2FUS%2Fivanka-trumps-chinese-proverb-chinese-proverb-experts%2Fstory%3Fid%3D55860647)
 
 ## Table of Contents
 
@@ -11,29 +15,43 @@ Fan project to redesign SpaceX website using modern web development tools.
 - [SpaceX Website Redesign : React-ReactRouter-Firebase](#spacex-website-redesign--react-reactrouter-firebase)
   - [Table of Contents](#table-of-contents)
   - [Progress](#progress)
-  - [Main Nav (nav__main)](#main-nav-nav__main)
-  - [Carousel](#carousel)
-  - [Carousel Info](#carousel-info)
-  - [Carousel Selector](#carousel-selector)
-  - [Main Content](#main-content)
-  - [News Card Slider](#news-card-slider)
-  - [Footer__Main](#footer__main)
-  - [Footer__Social](#footer__social)
+  - [Homepage](#homepage)
+    - [Main Nav (nav__main)](#main-nav-nav__main)
+    - [Carousel](#carousel)
+    - [Carousel Overlay](#carousel-overlay)
+    - [Carousel Menu](#carousel-menu)
+    - [Main Content](#main-content)
+    - [Card Slider](#card-slider)
+    - [Footer__Main](#footer__main)
+    - [Footer__Social](#footer__social)
+  - [Falcon 9 Page](#falcon-9-page)
+  - [Falcon Heavy Page](#falcon-heavy-page)
+  - [Dragon Page](#dragon-page)
+  - [News Page](#news-page)
+  - [Launch Manifest Page](#launch-manifest-page)
+  - [About Page](#about-page)
+  - [Careers Page](#careers-page)
+  - [Gallery Page](#gallery-page)
+  - [Shop Page](#shop-page)
 
 <!-- /TOC -->
 
 ## Progress
 
-- [ ] Nav__Main
+Homepage
+
+- [ ] Navbar
 - [ ] Carousel
-- [ ] Carousel Info
-- [ ] Carousel Selector
-- [ ] Main Content
-- [ ] News Card Slider
+- [ ] Carousel Overlay
+- [ ] Carousel Menu
+- [ ] Content
+- [ ] Card Slider
 - [ ] Footer__Main
 - [ ] Footer__Social
 
-## Main Nav (nav__main)
+## Homepage
+
+### Main Nav (nav__main)
 
 - Logo (nav__logo)
 - Rocket Unordered List (nav__list)
@@ -53,16 +71,52 @@ Fan project to redesign SpaceX website using modern web development tools.
   - SPA
   - CSS-Grid/Flexbox
 
-## Carousel
+### Carousel
 
-## Carousel Info
+- Need to make carousel dynamic
 
-## Carousel Selector
+### Carousel Overlay
 
-## Main Content
+- Add link to header and button
 
-## News Card Slider
+### Carousel Menu
 
-## Footer__Main
+- Add active link update
 
-## Footer__Social
+### Main Content
+
+- Play with margins
+
+### Card Slider
+
+- Add card slider on mobile
+
+### Footer__Main
+
+- Hide footer on mobile/replace with sticky nav?
+
+### Footer__Social
+
+- Replace text with social icon links?
+
+## Falcon 9 Page
+
+## Falcon Heavy Page
+
+## Dragon Page
+
+## News Page
+
+## Launch Manifest Page
+
+- [Implement SpaceX REST API](https://github.com/r-spacex/SpaceX-API)
+
+## About Page
+
+## Careers Page
+
+## Gallery Page
+
+## Shop Page
+
+- Lowest priority

@@ -9,7 +9,7 @@ const Content = () => {
   return (
     <div className='Content'>
       <h3 className='content__header'>
-        SPACE X DESIGNS, MANAFACTURES AND LAUNCHES ADVANCED ROCKETS AND
+        SPACEX DESIGNS, MANAFACTURES AND LAUNCHES ADVANCED ROCKETS AND
         SPACECRAFT
       </h3>
       <div className='content__cards'>

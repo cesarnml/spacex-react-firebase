@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 
+import './Dragon.css'
 class Dragon extends Component {
   render () {
-    return <div>Dragon</div>
+    return <div className='Dragon'>Dragon Page</div>
   }
 }
 

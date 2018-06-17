@@ -120,6 +120,14 @@
   }
 }
 
+@media (max-width: 768px) {
+  .content__header {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0 20px;
+  }
+}
+
 .content__cards {
   display: flex;
   justify-content: space-evenly;

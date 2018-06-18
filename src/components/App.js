@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 
 import Navbar from './Navbar/Navbar'
-
 import Home from './Home/Home'
 import Falcon9 from './Falcon9/Falcon9'
 import FalconHeavy from './FalconHeavy/FalconHeavy'
@@ -11,8 +10,6 @@ import About from './About/About'
 import Careers from './Careers/Careers'
 import Gallery from './Gallery/Gallery'
 import Shop from './Shop/Shop'
-
-import './App.css'
 
 class App extends Component {
   render () {

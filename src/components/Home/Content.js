@@ -59,7 +59,7 @@ const Content = () => {
             PRESENTATION: MAKING LIFE MULTIPLANETARY
           </h4>
           <div className='card-link__wrapper'>
-            <Link className='card-link' to='#'>
+            <Link className='card-link' to='/mars'>
               LEARN MORE
             </Link>&nbsp;&rarr;
           </div>

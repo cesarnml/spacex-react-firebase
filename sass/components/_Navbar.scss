@@ -41,7 +41,9 @@
   text-decoration: none;
   color: white;
   border-bottom: 2px solid transparent;
-  transition: all 0.5s ease;
+  transition: border-bottom 0.5s ease;
+  opacity: 1;
+  transition: opacity 4<link href="https://fonts.googleapis.com/css?family=Oleo+Script:regular,700" rel="stylesheet" />s ease
 }
 
 .rocket:hover {
@@ -64,7 +66,8 @@
     border-bottom: 2px solid RGB(204, 172, 85);
   }
   .rocket {
-    display: none
+    display: none;
+    opacity: 0;
   }
 }
 

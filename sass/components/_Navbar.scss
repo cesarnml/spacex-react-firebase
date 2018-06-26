@@ -46,7 +46,9 @@
   text-decoration: none;
   color: white;
   border-bottom: 2px solid transparent;
-  transition: all 0.5s ease;
+  transition: border-bottom 0.5s ease;
+  opacity: 1;
+  transition: opacity 4<link href="https://fonts.googleapis.com/css?family=Oleo+Script:regular,700" rel="stylesheet" />s ease
 }
 
 .rocket:hover {
@@ -73,6 +75,10 @@
   }
   .rocket {
     display: none;
+<<<<<<< HEAD:src/components/Navbar/Navbar.css
+=======
+    opacity: 0;
+>>>>>>> 8854837990def5e3d50e5dcd112d475c26e5718c:sass/components/_Navbar.scss
   }
 }
 

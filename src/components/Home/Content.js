@@ -8,10 +8,10 @@ import multiplanetary from '../../assets/makinglifemultiplanetary.jpg'
 const Content = () => {
   return (
     <div className='Content'>
-      <h3 className='content__header'>
+      <h1 className='content__header'>
         SPACEX DESIGNS, MANAFACTURES AND LAUNCHES ADVANCED ROCKETS AND
         SPACECRAFT
-      </h3>
+      </h1>
       <div className='content__cards'>
         <div className='card'>
           <div className='card-image-wrapper'>

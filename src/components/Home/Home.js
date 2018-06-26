@@ -4,8 +4,6 @@ import Carousel from './Carousel'
 import Content from './Content'
 import Footer from './Footer'
 
-import './Home.css'
-
 // <video className='carousel__movie' playsinline muted loop>
 // <source src={carouselMovie} type='video/mp4' />
 // </video>

@@ -2,10 +2,16 @@
   /* border: 2px solid blue; */
   position: relative;
   width: 100%;
+<<<<<<< HEAD:src/components/Home/Home.css
   height: 550px;
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../../assets/carousel_mars.jpg');
   background-position: center;
+=======
+  height: 34.4rem;
+  background: no-repeat url('./carousel_mars.jpg');
+  background-position: top;
+>>>>>>> 8854837990def5e3d50e5dcd112d475c26e5718c:sass/components/_Home.scss
   background-size: cover;
   /* padding-bottom: 66.63%; */
 }
@@ -35,7 +41,7 @@
   flex-flow: column;
   bottom: 0px;
   left: 0px;
-  height: 160px;
+  height: 1.6rem;
   width: 100%;
   background: rgba(0, 0, 0, .5);
 }
@@ -50,7 +56,7 @@
 
 .carousel__title {
   font-size: 1.9rem;
-  margin-left: 5%;
+  margin-left: 3.2rem;
   text-transform: uppercase;
 }
 
@@ -58,34 +64,34 @@
   font-size: 1rem;
   color: RGB(58, 58, 58);
   background: white;
-  margin-right: 5%;
-  height: 36px;
-  width: 180px;
+  margin-right: 3.2rem;
+  height: 3.6rem;
+  width: 1.8rem;
   border-radius: 2px;
   box-shadow: 2px 2px 2px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 11px;
+  font-size: 1.1rem;
 }
 
 .carousel__menu {
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 6.0rem;
   background: RGB(24, 28, 31);
-  font-size: 12px;
-  height: 60px;
+  font-size: 1.2rem;
+  height: 6.0rem;
 }
 
 .carousel__menu-item {
   display: flex;
-  width: 33%;
+  width: 21.1rem;
   justify-content: center;
 }
 
 .carousel__menu-num {
-  margin-right: 3%;
+  margin-right: 1.9rem;
   color: RGB(139, 147, 155);
 }
 
@@ -224,7 +230,7 @@
 
 .footer__social {
   /* border: 2px solid lime; */
-  height: 50px;
+  height: 5.0rem;
   display: flex;
   justify-content: center;
   align-items: center;
